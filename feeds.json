@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ITmedia AI+",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "lang": "ja",
+    "description": "国内最大手のAI専門ニュース"
+  },
+  {
+    "name": "Zenn (AIトピック)",
+    "url": "https://zenn.dev/topics/ai/feed",
+    "lang": "ja",
+    "description": "エンジニアによる実践的なAI活用・開発記事"
+  },
+  {
+    "name": "The Verge (AI)",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "lang": "en",
+    "description": "海外の最新AIトレンド・製品ニュース"
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "lang": "en",
+    "description": "スタートアップ・海外AIビジネス動向"
+  },
+  {
+    "name": "GIGAZINE",
+    "url": "https://gigazine.net/news/rss_2.0/",
+    "lang": "ja",
+    "description": "話題の最新ツールや面白いAI活用事例"
+  },
+  {
+    "name": "Google News (AI)",
+    "url": "https://blog.google/technology/ai/rss/",
+    "lang": "en",
+    "description": "Google公式のAI関連リリース"
+  }
+]

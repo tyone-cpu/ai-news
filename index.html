@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="AI日刊要約">
+    <meta name="theme-color" content="#2563eb">
+    <title>毎朝のAIニュース要約 | 2026年11月10日</title>
+    <!-- Tailwind CSS (軽量CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* スマホでの快適なタップ感 */
+        body {
+            -webkit-tap-highlight-color: transparent;
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-screen antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- ヘッダー（固定） -->
+    <header class="sticky top-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 px-4 py-3 sm:px-6">
+        <div class="max-w-xl mx-auto flex items-center justify-between">
+            <div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-lg">⚡️</span>
+                    <h1 class="text-base sm:text-lg font-extrabold tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                        日刊 AIニュース要約
+                    </h1>
+                </div>
+                <p class="text-[11px] text-slate-600 dark:text-slate-300">
+                    2026年11月10日 (火) • 朝 15:46 更新
+                </p>
+            </div>
+            <div class="text-right">
+                <span class="inline-block px-2 py-1 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                    全 10 件 (約3分)
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="max-w-xl mx-auto px-4 py-5 space-y-4">
+        
+        <!-- 通勤案内バナー（ホーム画面追加Tips） -->
+        <div id="pwa-tip" class="p-3.5 bg-blue-50/80 dark:bg-blue-950/40 rounded-xl border border-blue-100 dark:border-blue-900/40 text-xs text-blue-900 dark:text-blue-200 flex items-start justify-between gap-3">
+            <div class="flex items-start gap-2">
+                <span class="text-base shrink-0">📲</span>
+                <div>
+                    <span class="font-bold">毎朝ワンタップで開く方法</span>
+                    <p class="text-[11px] text-blue-700/80 dark:text-blue-300/80 mt-0.5">
+                        ブラウザの共有メニューから「ホーム画面に追加」すると、アプリ感覚で毎朝サッと読めます。
+                    </p>
+                </div>
+            </div>
+            <button onclick="document.getElementById('pwa-tip').style.display='none'" class="text-blue-400 hover:text-blue-600 text-sm font-bold shrink-0">✕</button>
+        </div>
+
+        <!-- 記事一覧 -->
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    国内AIトレンド
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                「Fable 5.2」の用途は？　Claudeモデルの選び方、Anthropicが基本を解説
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 ITmedia AI+ が報じる最新動向。国内外のAIコミュニティで大きな反響を呼んでいます。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>技術革新および市場投入に向けた最新の進捗が発表されました</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ビジネスへの実用化や開発環境への影響が期待されています</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>詳細は元記事リンク（日本語翻訳表示対応）から確認できます</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: ITmedia AI+ 
+                </span>
+                
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/10/2000003061/" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                元記事を読む
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    技術・開発
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                AIは文化を「平均化」していない。自分自身に同意しているだけだ
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 Zenn (AIトピック) が報じる最新動向。国内外のAIコミュニティで大きな反響を呼んでいます。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>技術革新および市場投入に向けた最新の進捗が発表されました</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ビジネスへの実用化や開発環境への影響が期待されています</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>詳細は元記事リンク（日本語翻訳表示対応）から確認できます</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: Zenn (AIトピック) 
+                </span>
+                
+            <a href="https://zenn.dev/pich/articles/324ffdcce913b4" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                元記事を読む
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    海外トレンド
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                【パラマウント】米映画大手トップ、生成AIがハリウッド映画制作の未来を救うと提唱
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 制作コスト高騰に悩む大手スタジオが、VFXや脚本補助への本格的な生成AI導入を表明。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>制作費の大幅削減とクリエイターの表現力向上の両立を目指す</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ハリウッドの労働組合との合意形成が今後の焦点に</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>映画・映像業界におけるAIの実用化が一段と加速する見通し</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: The Verge (AI) <span class='ml-1 px-1.5 py-0.2 rounded text-[10px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'>海外</span>
+                </span>
+                
+            <div class="flex items-center gap-2">
+                <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A//www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1 font-semibold text-emerald-600 dark:text-emerald-400 hover:underline bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                    🌐 日本語訳で読む
+                </a>
+                <a href="https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai" target="_blank" rel="noopener noreferrer" 
+                   class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-[11px] underline">
+                    原文
+                </a>
+            </div>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    スタートアップ・ビジネス
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                【Anthropic】Claudeを企業内データ検索に拡大へ、法人向け市場でOpenAIに対抗
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 社内文書やSlackと連携し、高度な文脈理解で必要な情報を瞬時に探し出す新機能を開発中。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>Google Driveや社内ナレッジベースとのシームレスな統合を予定</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>高いセキュリティ基準を強みに大企業ユーザーの獲得を狙う</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>エンタープライズAI市場での競争がさらに激化</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: TechCrunch AI <span class='ml-1 px-1.5 py-0.2 rounded text-[10px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'>海外</span>
+                </span>
+                
+            <div class="flex items-center gap-2">
+                <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A//techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1 font-semibold text-emerald-600 dark:text-emerald-400 hover:underline bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                    🌐 日本語訳で読む
+                </a>
+                <a href="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/" target="_blank" rel="noopener noreferrer" 
+                   class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-[11px] underline">
+                    原文
+                </a>
+            </div>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    ハードウェア・AIチップ
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                Googleが新型AIチップ「TPU 8tx」「TPU 8i Max」を発表、AMD製CPUを採用した機密情報保護モデルと処理性能2倍のモデルが登場
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 GIGAZINE が報じる最新動向。国内外のAIコミュニティで大きな反響を呼んでいます。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>技術革新および市場投入に向けた最新の進捗が発表されました</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ビジネスへの実用化や開発環境への影響が期待されています</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>詳細は元記事リンク（日本語翻訳表示対応）から確認できます</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: GIGAZINE 
+                </span>
+                
+            <a href="https://gigazine.net/news/20261110-google-tpu-8i-max-8tx/" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                元記事を読む
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    公式発表・モデル
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                【Google公式】次世代マルチモーダルモデル「Gemini Omni 1.2 Flash」発表
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 画像・音声・テキストをリアルタイムかつ超低コストで同時処理できる新モデルが登場。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>従来モデル比で推論速度が大幅に向上し、APIコストも大幅削減</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>スマホアプリや組み込み端末でのオンデバイス応答がより快適に</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>Google AI Studioから全世界の開発者向けに即日提供開始</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: Google News (AI) <span class='ml-1 px-1.5 py-0.2 rounded text-[10px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'>海外</span>
+                </span>
+                
+            <div class="flex items-center gap-2">
+                <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A//blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1 font-semibold text-emerald-600 dark:text-emerald-400 hover:underline bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                    🌐 日本語訳で読む
+                </a>
+                <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener noreferrer" 
+                   class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-[11px] underline">
+                    原文
+                </a>
+            </div>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    国内AIトレンド
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                dotsが「複数台のローカルコンピュータ接続」に対応　各マシンでタスクを分担可能に
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 ITmedia AI+ が報じる最新動向。国内外のAIコミュニティで大きな反響を呼んでいます。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>技術革新および市場投入に向けた最新の進捗が発表されました</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ビジネスへの実用化や開発環境への影響が期待されています</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>詳細は元記事リンク（日本語翻訳表示対応）から確認できます</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: ITmedia AI+ 
+                </span>
+                
+            <a href="https://www.itmedia.co.jp/aiplus/article/2611/10/2000003058/" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                元記事を読む
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    技術・開発
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                RSI（再帰的自己改善）とは何か：AIがAIを改良するとき、実際に何が良くなっているのか
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 Zenn (AIトピック) が報じる最新動向。国内外のAIコミュニティで大きな反響を呼んでいます。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>技術革新および市場投入に向けた最新の進捗が発表されました</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>ビジネスへの実用化や開発環境への影響が期待されています</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>詳細は元記事リンク（日本語翻訳表示対応）から確認できます</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: Zenn (AIトピック) 
+                </span>
+                
+            <a href="https://zenn.dev/pich/articles/fb66db909036e0" target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center gap-1 font-semibold text-blue-600 dark:text-blue-400 hover:underline">
+                元記事を読む
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+            </a>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    海外トレンド
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                【NVIDIA】ジェンスン・フアンCEOの訪中で注目される中国市場向けAIチップの行方
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 米国の輸出規制が強まる中、巨大な中国AI市場に向けた特別仕様チップの供給を協議か。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>中国のテック大手による代替チップ開発が進む中での訪問</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>規制に抵触しない新たな専用モデルの投入可能性が浮上</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>世界の半導体サプライチェーンへの影響が注視される</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: The Verge (AI) <span class='ml-1 px-1.5 py-0.2 rounded text-[10px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'>海外</span>
+                </span>
+                
+            <div class="flex items-center gap-2">
+                <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A//www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1 font-semibold text-emerald-600 dark:text-emerald-400 hover:underline bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                    🌐 日本語訳で読む
+                </a>
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang" target="_blank" rel="noopener noreferrer" 
+                   class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-[11px] underline">
+                    原文
+                </a>
+            </div>
+            
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-sm border border-slate-100 dark:border-slate-700/60 transition hover:shadow-md">
+            <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
+                    スタートアップ・ビジネス
+                </span>
+                <span class="text-xs text-slate-400 dark:text-slate-400 flex items-center gap-1 font-medium">
+                    ⏱ 45秒 で読める
+                </span>
+            </div>
+
+            <h2 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-2">
+                【米国防総省】NVIDIA CEO、ペンタゴンの高官らに最新AI技術の軍事・安全保障応用を解説
+            </h2>
+
+            <!-- 1行サマリー -->
+            <div class="p-3 bg-amber-50/70 dark:bg-amber-950/30 border-l-4 border-amber-400 rounded-r-xl mb-3.5">
+                <p class="text-xs sm:text-sm font-medium text-amber-900 dark:text-amber-200 leading-relaxed">
+                    💡 防衛分野におけるAI主導権確保のため、最高峰の半導体技術とシミュレーションを議論。
+                </p>
+            </div>
+
+            <!-- 要点3点 -->
+            <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1.5 mb-4 leading-relaxed">
+                <li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>自律型防衛システムやリアルタイム解析におけるGPU需要を説明</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>安全保障におけるAIインフラの重要性が改めて強調された</span></li><li class='flex items-start gap-2'><span class='text-blue-500 font-bold shrink-0'>・</span><span>米政府と主要AI半導体メーカーの連携強化の一環</span></li>
+            </ul>
+
+            <!-- フッター情報 -->
+            <div class="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-slate-700/50 text-xs">
+                <span class="text-slate-600 dark:text-slate-300 font-medium truncate max-w-[150px] flex items-center">
+                    出典: TechCrunch AI <span class='ml-1 px-1.5 py-0.2 rounded text-[10px] bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300'>海外</span>
+                </span>
+                
+            <div class="flex items-center gap-2">
+                <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A//techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1 font-semibold text-emerald-600 dark:text-emerald-400 hover:underline bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                    🌐 日本語訳で読む
+                </a>
+                <a href="https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/" target="_blank" rel="noopener noreferrer" 
+                   class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 text-[11px] underline">
+                    原文
+                </a>
+            </div>
+            
+            </div>
+        </article>
+        
+
+        <!-- フッター -->
+        <footer class="pt-6 pb-12 text-center text-xs text-slate-400 dark:text-slate-400 space-y-1">
+            <p>毎朝自動更新 • Gemini API & GitHub Actions で完全自動配信</p>
+            <p>通勤時間・朝の隙間時間のインプットに最適化</p>
+        </footer>
+    </main>
+
+</body>
+</html>
