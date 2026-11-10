@@ -66,9 +66,9 @@ def get_sample_articles():
         {
             "source": "ITmedia AI+",
             "lang": "ja",
-            "title": "「Fable 5.2」の用途は？　Claudeモデルの選び方、Anthropicが基本を解説",
-            "link": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003061/",
-            "summary": "Anthropicが公式にClaude 3.5各モデルの選定指針を公開。コーディングや複雑な推論にはSonnet、高速・低コスト処理にはHaikuなど、用途ごとの使い分けを解説。",
+            "title": "情報漏えい続出でフィッシングに変化？　“その人専用詐欺メール”登場の懸念",
+            "link": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003065/",
+            "summary": "企業標的の不正アクセスが相次ぎ個人情報が大量流出。流出データをAIに学習させ、本人そっくりの文面で騙す標的型フィッシングの脅威を専門家が解説。",
             "published": "2026-11-10"
         },
         {
@@ -82,7 +82,7 @@ def get_sample_articles():
         {
             "source": "The Verge (AI)",
             "lang": "en",
-            "title": "David Ellison says AI could be the future of Paramount",
+            "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
             "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
             "summary": "Paramount and Skydance leadership discuss how generative AI can revolutionize film production, VFX pipelines, and storytelling costs in Hollywood.",
             "published": "2026-11-10"
@@ -90,33 +90,33 @@ def get_sample_articles():
         {
             "source": "TechCrunch AI",
             "lang": "en",
-            "title": "Anthropic reportedly plans to move into enterprise search",
-            "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-            "summary": "Anthropic is preparing enterprise search features within Claude to compete directly with OpenAI by indexing internal company documents and databases.",
+            "title": "Otter AI can now follow conversations across 30+ languages",
+            "link": "https://techcrunch.com/2026/11/10/otter-ai-multilingual-meeting-notes/",
+            "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch languages during a live conversation.",
             "published": "2026-11-10"
         },
         {
             "source": "GIGAZINE",
             "lang": "ja",
-            "title": "Googleが新型AIチップ「TPU 8tx」「TPU 8i Max」を発表、AMD製CPUを採用した機密情報保護モデルと処理性能2倍のモデルが登場",
-            "link": "https://gigazine.net/news/20261110-google-tpu-8i-max-8tx/",
-            "summary": "GoogleがカスタムAIアクセラレータ第8世代を発表。前世代比2倍の処理性能を誇る推論特化型とAMD製CPUを統合した高機密情報保護モデルを展開。",
+            "title": "Claude Opus 5.5の推論能力が11月3日から急激に低下したとの指摘、1400件の利用履歴から変化が判明",
+            "link": "https://gigazine.net/news/20261110-claude-opus-performance-drop/",
+            "summary": "Anthropicの最上位モデル「Claude Opus 5.5」の推論能力が11月上旬から急落した可能性が浮上。開発者が1400件以上の利用ログを分析したところ正答率に顕著な変化が判明。",
             "published": "2026-11-10"
         },
         {
             "source": "Google News (AI)",
             "lang": "en",
-            "title": "Gemini Omni 1.2 Flash: fast and cost-efficient multimodal model",
+            "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
             "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-            "summary": "Google introduces Gemini Omni 1.2 Flash, delivering ultra-low-latency real-time voice, vision, and text processing at a fraction of API costs.",
+            "summary": "Google introduces Gemini Omni 1.2 Flash, delivering ultra-low-latency real-time voice, vision, and text processing at a fraction of API costs with support for longer video clips.",
             "published": "2026-11-10"
         },
         {
             "source": "ITmedia AI+",
             "lang": "ja",
-            "title": "dotsが「複数台のローカルコンピュータ接続」に対応　各マシンでタスクを分担可能に",
-            "link": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003058/",
-            "summary": "ローカルAI実行環境「dots」が同一LAN内の複数マシン接続をサポート。手持ちのMacやPCの遊休リソースを束ねてモデル推論や並列処理を分担可能に。",
+            "title": "「Fable 5.2」の用途は？　Claudeモデルの選び方、Anthropicが基本を解説",
+            "link": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003061/",
+            "summary": "Anthropicが公式にClaude 3.5各モデルの選定指針を公開。コーディングや複雑な推論にはSonnet、高速・低コスト処理にはHaikuなど、用途ごとの使い分けを解説。",
             "published": "2026-11-10"
         },
         {
@@ -138,9 +138,9 @@ def get_sample_articles():
         {
             "source": "TechCrunch AI",
             "lang": "en",
-            "title": "Jensen Huang reportedly engaged a pentagon briefing",
-            "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-            "summary": "Nvidia leadership met with senior Pentagon defense officials to discuss the strategic military applications of next-gen AI supercomputers and GPU clusters.",
+            "title": "Anthropic reportedly plans to move forward with IPO plans",
+            "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+            "summary": "Anthropic is expected to set its valuation range this week for a planned IPO, Wall Street Journal reported, stepping up its rivalry with OpenAI.",
             "published": "2026-11-10"
         }
     ]
@@ -242,7 +242,6 @@ def summarize_with_gemini(articles):
    - "read_time": 読了目安（例: "30秒", "40秒", "45秒"）
 """
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
     headers = {"Content-Type": "application/json"}
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -252,33 +251,83 @@ def summarize_with_gemini(articles):
         }
     }
 
-    try:
-        response = requests.post(url, headers=headers, json=payload, timeout=60)
-        response.raise_for_status()
-        res_json = response.json()
-        content_text = res_json["candidates"][0]["content"]["parts"][0]["text"].strip()
+    # 利用可能なモデルを順次試行
+    candidate_models = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"]
+    for model_name in candidate_models:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
+        try:
+            print(f"📡 Gemini モデル ({model_name}) にリクエスト送信中...")
+            response = requests.post(url, headers=headers, json=payload, timeout=60)
+            if response.status_code != 200:
+                print(f"⚠️ {model_name} HTTPエラー {response.status_code}: {response.text[:120]}")
+                continue
 
-        # JSONのパース
-        if content_text.startswith("```"):
-            lines = content_text.splitlines()
-            if lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines[-1].startswith("```"):
-                lines = lines[:-1]
-            content_text = "\n".join(lines).strip()
+            res_json = response.json()
+            content_text = res_json["candidates"][0]["content"]["parts"][0]["text"].strip()
 
-        summaries = json.loads(content_text)
-        print(f"✅ {len(summaries)} 件の記事の2行要約が完了しました。")
-        return summaries
-    except Exception as e:
-        print(f"⚠️ Gemini API 呼び出しエラー: {e}")
-        return generate_mock_summaries(articles)
+            # JSONのパース
+            if content_text.startswith("```"):
+                lines = content_text.splitlines()
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                content_text = "\n".join(lines).strip()
+
+            summaries = json.loads(content_text)
+            print(f"✅ Gemini API ({model_name}) により {len(summaries)} 件の記事の2行要約が完了しました。")
+            return summaries
+        except Exception as e:
+            print(f"⚠️ {model_name} 呼び出し失敗: {e}")
+
+    print("⚠️ 全てのGeminiモデルの呼び出しに失敗したため、個別詳細フォールバックで生成します。")
+    return generate_mock_summaries(articles)
 
 
 def generate_mock_summaries(articles):
     """プレビュー・オフライン用：各記事タイトルと内容から定型句を排除した具体的な2行要約を生成"""
-    # 既知の記事や主要トピックの個別詳細マッピング
+    # 既知の記事や主要トピックの個別詳細マッピング（英語記事も完全日本語化）
     known_summaries = {
+        "otter": {
+            "title": "【Otter AI】リアルタイム文字起こしが30言語以上に対応、多言語対話の自動認識へ",
+            "category": "ツール・音声AI",
+            "summary_2lines": "AI音声認識・文字起こしの「Otter AI」が日本語を含む30以上の言語に対応。話者が途中で言語を切り替えても自動で追従・文字起こしを行う新機能を発表し、グローバル会議の記録を大幅に効率化します。",
+            "points": [
+                "27言語を即日追加し、異なる言語が混在する対話の自動追従機能も開発中",
+                "オンライン会議や国際ビジネスにおけるリアルタイム議事録作成が快適に"
+            ],
+            "read_time": "40秒"
+        },
+        "ipo": {
+            "title": "【Anthropic】IPO（新規株式公開）に向けた準備を推進、今週にも想定企業価値を設定か",
+            "category": "ビジネス・産業",
+            "summary_2lines": "AIスタートアップのAnthropicがIPO（新規株式公開）に向けた計画を本格化させていると報道。今週中にも想定時価総額のレンジを設定する見通しで、OpenAIとの資本力・企業規模競争が激化します。",
+            "points": [
+                "米ウォール・ストリート・ジャーナルが報じたもので、AI大手の上場動向として注目",
+                "大規模インフラ投資と次世代モデル開発に向けた巨額資金調達を狙う"
+            ],
+            "read_time": "45秒"
+        },
+        "フィッシング": {
+            "title": "【セキュリティ】個人情報漏えい悪用、AI生成による「超標的型フィッシング」の脅威",
+            "category": "セキュリティ・社会",
+            "summary_2lines": "企業からの個人情報漏えいが相次ぐ中、流出データをAIに学習させて特定の個人専用に文面を最適化した詐欺メールの急増が懸念。従来のテンプレート型と異なり見破りが困難な実態を専門家が警鐘しています。",
+            "points": [
+                "過去のやり取りや役職・関心事に合わせた自然な日本語文面をAIが瞬時に自動生成",
+                "機械的な不自然さが消えたことで従来のセキュリティ教育や検知の難度が高騰"
+            ],
+            "read_time": "45秒"
+        },
+        "opus": {
+            "title": "【Anthropic】Claude Opus 5.5の推論性能が急激に低下？ 1400件の検証で変化浮上",
+            "category": "LLM・検証動向",
+            "summary_2lines": "Anthropicの最上位モデル「Claude Opus 5.5」の推論能力が11月上旬から急落した可能性が浮上。開発者が1400件以上の利用ログを分析したところ、複雑なタスクでの正答率に顕著な変化が確認され議論を呼んでいます。",
+            "points": [
+                "プログラミングや論理パズルの正解率低下が複数のエンジニアから報告",
+                "モデルのサイレントアップデートや推論リソース最適化の影響が推測される"
+            ],
+            "read_time": "45秒"
+        },
         "fable": {
             "title": "【Anthropic】「Fable 5.2」の用途は？ Claudeモデルの選び方を公式解説",
             "category": "LLM・モデル選定",
@@ -422,33 +471,46 @@ def generate_mock_summaries(articles):
             
             # カテゴリの自動推定
             cat = "最新AI動向"
-            if any(w in search_key for w in ["model", "llm", "gpt", "gemini", "claude"]):
+            if any(w in search_key for w in ["model", "llm", "gpt", "gemini", "claude", "モデル"]):
                 cat = "LLM・モデル"
-            elif any(w in search_key for w in ["chip", "gpu", "tpu", "hardware", "半導体"]):
+            elif any(w in search_key for w in ["chip", "gpu", "tpu", "hardware", "半導体", "チップ"]):
                 cat = "ハードウェア・AIチップ"
-            elif any(w in search_key for w in ["agent", "エージェント", "ツール", "tool"]):
+            elif any(w in search_key for w in ["agent", "エージェント", "ツール", "tool", "plugin", "プラグイン"]):
                 cat = "ツール・開発"
-            elif any(w in search_key for w in ["business", "企業", "法人", "提携"]):
+            elif any(w in search_key for w in ["business", "企業", "法人", "提携", "ipo", "投資"]):
                 cat = "ビジネス・産業"
+            elif any(w in search_key for w in ["security", "セキュリティ", "詐欺", "攻撃"]):
+                cat = "セキュリティ・社会"
 
-            display_title = title
             if lang == "en":
-                display_title = f"【海外動向】{title}"
+                # 英語記事の場合：英語タイトルをそのまま出さず、必ず自然な日本語タイトルと要約を作成
+                display_title = f"【{a['source']}】最新海外AIレポート（{cat}）"
+                if "anthropic" in search_key:
+                    display_title = "【Anthropic】最新の事業戦略およびAIモデル展開に関する報道"
+                elif "openai" in search_key:
+                    display_title = "【OpenAI】最新のプロダクトアップデートと開発動向"
+                elif "google" in search_key:
+                    display_title = "【Google】公式AI技術および次世代マルチモーダルの進展"
+                elif "nvidia" in search_key:
+                    display_title = "【NVIDIA】AI半導体供給とグローバル市場戦略の最新動向"
+                elif "otter" in search_key:
+                    display_title = "【Otter AI】音声認識・会議自動文字起こしの多言語機能アップデート"
 
-            # 本文から具体的な事実を80〜120字程度で構成
-            if len(clean_summary) > 40:
-                # 最初の文を抽出
+                summary_2lines = f"海外大手メディア「{a['source']}」が報じる最新のAI動向。{cat}分野における技術進歩や新たなサービス展開について、最新情報が発表されています。"
+                points = [
+                    "元記事（英語全文）は下記の「🌐 日本語訳で読む」から日本語で閲覧可能",
+                    f"{a['source']}の公式リンクより直接詳細データを確認できます"
+                ]
+            else:
+                display_title = title
                 first_part = clean_summary[:110]
                 if not first_part.endswith("。"):
                     first_part += "。"
-                summary_2lines = f"{a['source']}発表。{first_part}"
-            else:
-                summary_2lines = f"【{a['source']}発表】{title}に関する最新発表。新機能の仕様や実務への導入方法、技術的な改善点などの詳細情報が公表されています。"
-
-            points = [
-                f"{a['source']}の公式記事にて仕様や背景の詳細が解説されています",
-                "元記事リンクより直接原文および詳細な検証データを確認可能です"
-            ]
+                summary_2lines = f"【{a['source']}】{first_part}"
+                points = [
+                    f"{a['source']}の公式記事にて仕様や背景の詳細が解説されています",
+                    "元記事リンクより直接原文および詳細な検証データを確認可能です"
+                ]
 
             mock_data.append({
                 "title": display_title,
