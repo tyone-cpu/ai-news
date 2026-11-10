@@ -1,1 +1,7 @@
-.github/workflows/update_news.yml
+name: Daily AI News Summarizer
+on:
+  schedule:
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+  push:
+...
